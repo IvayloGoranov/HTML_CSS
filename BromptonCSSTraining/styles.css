@@ -1,0 +1,233 @@
+/* Main Menu Styles */
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+    background-color: #FFFFFF;
+	color: #FF0000;
+}
+
+.main-menu {
+	background: #000000;
+}
+
+.main-menu > aside {
+	float: right;
+	margin: 20px 30px 0 0;
+}
+
+nav {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 412px;
+	margin-bottom: 10px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+
+nav > ul > li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	text-transform: uppercase;
+}
+
+.main-menu-aside-box {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.main-menu-aside-box > select {
+	width: 100px;
+	padding: 7px 10px 7px 10px;
+	font-size: 15px;
+}
+
+.main-menu-account-dropdown {
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+.main-menu-language-dropdown {
+	background-color: #696969;
+	color: #FFFFFF;
+}
+
+.page-background-color {
+	background-color: #DCDCDC;
+}
+
+.page-header {
+	color: #FF0000;
+	margin-left: 452px;
+	margin-top: 0px;
+}
+
+/* Dashboard Page Styles */
+.dashboard-main-container {
+	width: 995px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+.dashboard-buttons-container {
+	display: inline-block;
+	height: 300px;
+	margin-top: 100px;
+	float: left;
+	width: 40%;
+}
+
+.dashboard-search-container {
+	display: inline-block;
+	float: right;
+	width: 48%;
+	margin-top: 30px;
+}
+
+.dashboard-orders-container {
+	width: 100%;
+}
+
+.dashbord-review-button-container { 
+	display:inline-block; 
+	width:100%; 
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.dashbord-review {  
+	width: 48%; 
+	float: left; 
+}
+
+.dashbord-account{ 
+	width: 48%; 
+	float: left; 
+}
+
+.dashboard-review-button {    
+	background: #1E90FF;
+    padding: 15px 10px 15px 10px;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	width: 140px;
+}
+
+.dashboard-account-button { 
+	background: #696969;
+	padding: 8px 8px 7px 8px; 
+	border: none;
+	cursor: pointer;
+	color: #FFFFFF;
+	width: 140px;
+}
+
+.vertical-dotted-line {
+    border-left: 2px dotted black;
+    height: 350px;
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 20px;
+} 
+
+.horizontal-dotted-line {
+  border:none;
+  border-top:2px dotted black;
+  height:1px;
+  width:95%;
+  margin: 0px 5px, 0px, 5 px;
+}
+
+.dashboard-question-label, .dashboard-search-label {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.dashboard-question-label {
+	margin-left: 105px;
+}
+
+.dashboard-search-label {
+	margin-left: 145px;
+	font-size: 20px;
+}
+
+.dashboard-search-box-container{
+	margin-left: 70px;
+	margin-top: 10px;
+	width: 50%;
+}
+
+.dashboard-search-box{
+	width: 250px;
+	height: 30px;
+	border: 2px solid silver;
+}
+
+.dashboard-order-status-container{
+	margin-left: 70px;
+	margin-top: 30px;
+	width: 70%;
+}
+
+.dashboard-order-status-label {
+	margin-left: 67px;
+	font-size: 20px;
+}
+
+.dashboard-order-status{
+	margin-top: 20px;
+}
+
+.dashboard-order-status-table tr td {
+	padding-right: 55px;
+}
+
+.dashboard-order-status-table td:nth-child(1) {
+	color: silver;
+}
+
+.dashboard-order-status-table td:nth-child(2) {
+	text-align: center;
+}
+
+.dashboard-orders-table th {
+	color: silver;
+}
+
+.dashboard-orders-table td, .dashboard-orders-table th {
+	width: 100px;
+	text-align: center;
+	padding-right: 10px;
+	padding-bottom: 12px;
+}
+
+.dashboard-orders {
+	margin: 0px 100px;
+}
+
+.dashboard-view-all-button { 
+	background: #FFFFFF;
+	padding: 8px 8px 7px 8px; 
+	cursor: pointer;
+	color: silver;
+	width: 140px;
+}
+
+.dashboard-orders-table tfoot td {
+	font-size: 20px;
+}
+
+.dashboard-orders-table tbody tr:hover {
+	background-color: silver;
+	cursor: pointer;
+}
